@@ -2,17 +2,16 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from '../components/image.js';
 import Team from '../components/Team';
+import Hero from '../components/Hero';
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>White Rabbit Technology LLC</title>
+        <title>White Rabbit Technology</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-6xl font-bold">
-        White Rabbit Technology LLC
-      </h1>
+      <Hero />
       <Team />
     </div>
   );
