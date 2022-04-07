@@ -30,7 +30,7 @@ const AboutTheTeam = () => {
 };
 
 interface TeamMembersProps {
-  members: Array<PersonProps>;
+  members: Array<TeamMemberProps>;
 }
 
 function TeamMembers(props: TeamMembersProps) {

@@ -1,3 +1,5 @@
+import Image from "../image.js";
+
 const copy = {
   heroTitle: "White Rabbit Technology LLC",
   heroSubtitle: "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
@@ -54,7 +56,7 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
               <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                 <div className="absolute inset-0">
-                  <img
+                  <Image
                     className="h-full w-full object-cover"
                     src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100"
                     alt="People working on laptops"
