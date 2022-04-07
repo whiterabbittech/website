@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from '../components/image.js';
+import Team from '../components/Team';
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       <h1 className="text-6xl font-bold">
         White Rabbit Technology LLC
       </h1>
+      <Team />
     </div>
   );
 }
