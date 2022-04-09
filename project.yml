@@ -1,5 +1,3 @@
-targetNamespace: ''
-cleanNamespace: false
 parameters: {}
 environment:
   ENV: "${ENV}"
@@ -7,17 +5,10 @@ environment:
   COURIER_AUTH_TOKEN: "${COURIER_AUTH_TOKEN}"
 packages:
   - name: contact
-    shared: false
-    clean: false
     environment: {}
     parameters: {}
     actions:
       - name: newContact
-        clean: false
-        binary: false
-        web: true
-        webSecure: false
-        annotations: {}
         main: ''
         runtime: 'go:default'
         parameters: {}
