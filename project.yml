@@ -18,7 +18,6 @@ packages:
         web: true
         webSecure: false
         annotations: {}
-        limits: {}
         main: ''
         runtime: 'go:default'
         parameters: {}
