@@ -12,7 +12,7 @@ packages:
     environment: {}
     parameters: {}
     actions:
-      - name: contact
+      - name: newContact
         clean: false
         binary: false
         web: true
