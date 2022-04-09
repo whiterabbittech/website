@@ -5,7 +5,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/trycourier/courier-go/v2"
-	"github.com/whiterabbittech/website/config"
+	"github.com/whiterabbittech/website/contact/config"
 )
 
 var conf *config.Config
@@ -97,4 +97,8 @@ func setupLogger(conf *config.Config) {
 	}
 	logrus.SetFormatter(formatter)
 	logrus.SetLevel(conf.LogLevel())
+}
+
+func main() {
+	logrus.Info("Hello DigitalOcean")
 }

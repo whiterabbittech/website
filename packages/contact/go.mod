@@ -1,4 +1,4 @@
-module github.com/whiterabbittech/website
+module github.com/whiterabbittech/website/contact
 
 go 1.18
 
