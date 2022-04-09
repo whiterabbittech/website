@@ -7,8 +7,8 @@ package config
 type Env string
 
 const (
-	// Prod is the Production environment
-	Prod Env = "prod"
+	// Production is the Production environment
+	Prod Env = "production"
 	// None is the local environment.
 	None Env = ""
 )

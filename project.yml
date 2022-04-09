@@ -1,5 +1,8 @@
 parameters: {}
-environment: {}
+environment:
+  ENV: "${VERBOSITY}"
+  VERBOSITY: "${VERBOSITY}"
+  COURIER_AUTH_TOKEN: "${COURIER_AUTH_TOKEN}"
 packages:
   - name: contact
     environment: {}
