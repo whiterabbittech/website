@@ -1,9 +1,8 @@
 targetNamespace: ''
 cleanNamespace: false
-bucket: {}
 parameters: {}
 environment:
-  ENV: "${VERBOSITY}"
+  ENV: "${ENV}"
   VERBOSITY: "${VERBOSITY}"
   COURIER_AUTH_TOKEN: "${COURIER_AUTH_TOKEN}"
 packages:
