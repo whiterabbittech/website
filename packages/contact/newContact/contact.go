@@ -98,7 +98,3 @@ func setupLogger(conf *config.Config) {
 	logrus.SetFormatter(formatter)
 	logrus.SetLevel(conf.LogLevel())
 }
-
-func main() {
-	logrus.Info("Hello DigitalOcean")
-}
