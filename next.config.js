@@ -5,6 +5,7 @@ const nextConfig = {
     newNextLinkBehavior: true,
     images: {
       allowFutureImage: true,
+      unoptimized: true
     },
   },
 }
