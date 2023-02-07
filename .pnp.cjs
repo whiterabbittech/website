@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:13.0.2"],\
             ["focus-visible", "npm:5.2.0"],\
             ["next", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:13.0.2"],\
+            ["postcss", "npm:8.4.21"],\
             ["postcss-focus-visible", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:6.0.4"],\
             ["prettier", "npm:2.8.3"],\
             ["prettier-plugin-tailwindcss", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:0.1.13"],\
@@ -761,7 +762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", null],\
+            ["postcss", "npm:8.4.21"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
@@ -3422,7 +3423,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-focus-visible", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:6.0.4"],\
             ["@types/postcss", null],\
-            ["postcss", null],\
+            ["postcss", "npm:8.4.21"],\
             ["postcss-selector-parser", "npm:6.0.11"]\
           ],\
           "packagePeers": [\
@@ -4192,7 +4193,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"]\
           ],\
           "packagePeers": [\
-            "@types/postcss"\
+            "@types/postcss",\
+            "postcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4210,6 +4212,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:13.0.2"],\
             ["focus-visible", "npm:5.2.0"],\
             ["next", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:13.0.2"],\
+            ["postcss", "npm:8.4.21"],\
             ["postcss-focus-visible", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:6.0.4"],\
             ["prettier", "npm:2.8.3"],\
             ["prettier-plugin-tailwindcss", "virtual:8694dbc8e8f471583d573f8bc956e6c68109182672060f0734c5bc5aa835f9f563988680ba8f4344c7c02552c7cd1f4cf65550106139df925bed8beee9d20d46#npm:0.1.13"],\
