@@ -2,11 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    newNextLinkBehavior: true,
-    images: {
-      allowFutureImage: true,
-      unoptimized: true
-    },
+    scrollRestoration: true,
   },
 }
 

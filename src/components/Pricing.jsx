@@ -85,7 +85,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         variant={featured ? 'solid' : 'outline'}
         color="white"
         className="mt-8"
-        aria-label={`Get started with ${name} plan for ${price}`}
+        aria-label={`Get started with the ${name} plan for ${price}`}
       >
         Get started
       </Button>
