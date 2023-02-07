@@ -10,32 +10,37 @@ import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
-const features = [
-  {
-    title: 'Payroll',
-    description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
-  },
-  {
-    title: 'Claim expenses',
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
-  },
-  {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
-  },
-]
+const copy = {
+  section_title: 'Everything you need to bring your product to market.',
+  section_subtitle: 'White Rabbit provides your business with every tool you need to scale from zero to one.',
+  features: [
+    {
+      title: 'Deployments',
+      description:
+        "Deploy your application quickly and securely, all automatically.",
+      image: screenshotPayroll,
+    },
+    {
+      title: 'Analytics',
+      description:
+        "Deeply understand your customers with simple yet sophisticated analytics.",
+      image: screenshotExpenses,
+    },
+    {
+      title: 'Securely Access Private Sites',
+      description:
+        "Create as many company-internal services as you want, and access them securely from anywhere.",
+      image: screenshotVatReturns,
+    },
+    {
+      title: 'Keep Costs Low',
+      description:
+        'Know that every dollar spent has the highest impact. High performance and low cost.',
+      image: screenshotReporting,
+    },
+  ],
+};
+
 
 export function PrimaryFeatures() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -72,11 +77,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            {copy.section_title}
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            {copy.section_subtitle}
           </p>
         </div>
         <Tab.Group
@@ -88,7 +92,7 @@ export function PrimaryFeatures() {
             <>
               <div className="-mx-4 flex overflow-x-auto pb-4 sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5">
                 <Tab.List className="relative z-10 flex gap-x-4 whitespace-nowrap px-4 sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
-                  {features.map((feature, featureIndex) => (
+                  {copy.features.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
                       className={clsx(
@@ -126,7 +130,7 @@ export function PrimaryFeatures() {
                 </Tab.List>
               </div>
               <Tab.Panels className="lg:col-span-7">
-                {features.map((feature) => (
+                {copy.features.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
